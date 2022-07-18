@@ -5,15 +5,21 @@
     font-family: 'DM sans' ,sans-serif;
 }
 
+header {
+    display:flex;
+    justify-content: center;
+}
 
 .flex {
-    flex-basis: 400px;
+    max-width: 1600px;
+    
+    width: 1600px;
     flex-shrink: 1;
-    margin:0 auto;
+    margin:0px ;
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 20px 200px;
+    padding: 20px 10px;
 }
 
 .flex1 {
