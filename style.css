@@ -117,5 +117,23 @@ ul {
 }
 
 
+@media screen and (max-width: 1000px) {
+    .flex-main {
+    
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding:20px 20px;
+    }
+    .flex {
+        width: 800px;
+        min-width: 400px;
+        margin:0px 10px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px;
+    }
 
+  }
 
