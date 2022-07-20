@@ -11,8 +11,12 @@ header {
     justify-content: center;
 }
 
+section {
+    font-size: 14px;
+}
+
 .flex {
-    width: 1500px;
+    width: 1400px;
     min-width: 1000px;
     margin:0px 10px;
     background-color: white;
@@ -54,6 +58,7 @@ main{
     align-items: center;
     border-radius: 8px;
     border: 1px black;
+    padding: 0px;
 }
 
 .flex-main > section {
@@ -73,16 +78,30 @@ ul {
     list-style-position: inside;
     opacity: 0.8;
 }
-a {
-    padding: 5px;
+.link1 {
+    padding: 10px 20px;
     text-decoration: none;
     color:aliceblue;
     background-color: blue;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 3px;
 }
-a:hover {
+.link2 {
+    padding: 10px;
+    text-decoration: none;
+    color:blue;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid blue;
+}
+
+.link1:hover {
     background-color: rgb(11, 11, 213);
+}
+
+.link2:hover {
+    background-color: rgba(39, 135, 244, 0.1);
 }
 
 .link-flex{
@@ -90,4 +109,13 @@ a:hover {
     flex-direction: column;
     margin-bottom: 10px;
 }
+
+.flex-link {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
 
