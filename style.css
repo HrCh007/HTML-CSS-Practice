@@ -54,7 +54,7 @@ main{
     background-color: white;
     height: 682px;
     flex-basis: 300px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border-radius: 8px;
     border: 1px black;
