@@ -54,7 +54,7 @@ main{
     background-color: white;
     height: 682px;
     flex-basis: 300px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border-radius: 8px;
     border: 1px black;
@@ -79,21 +79,25 @@ ul {
     opacity: 0.8;
 }
 .link1 {
-    padding: 10px 20px;
+    padding: 10px 5px;
+    flex-grow:2;
     text-decoration: none;
     color:aliceblue;
     background-color: blue;
     text-align: center;
     border-radius: 3px;
+    align-self: stretch;
 }
 .link2 {
-    padding: 10px;
+    padding: 10px 5px;
+    flex-grow:3;
     text-decoration: none;
     color:blue;
     background-color: aliceblue;
     text-align: center;
     border-radius: 3px;
     border: 1px solid blue;
+    align-self: stretch;
 }
 
 .link1:hover {
@@ -104,18 +108,41 @@ ul {
     background-color: rgba(39, 135, 244, 0.1);
 }
 
-.link-flex{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
+
 
 .flex-link {
     display: flex;
     flex-direction: row;
+    align-items: stretch;
     
 }
 
+.top {
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+}
 
 
+@media screen and (max-width: 1000px) {
+    .flex-main {
+    
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding:20px 20px;
+    }
+    .flex {
+        width: 800px;
+        min-width: 360px;
+        margin:0px 10px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px;
+        
+    }
+
+  }
 
