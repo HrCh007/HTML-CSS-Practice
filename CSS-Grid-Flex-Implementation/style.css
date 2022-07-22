@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM sans' ,sans-serif;
+}
+
+header {
+    background-color: white;
+    display:flex;
+    justify-content: center;
+}
+
+section {
+    font-size: 14px;
+}
+
+.flex-header{
+    width: 1450px;
+    min-width: 1000px;
+    margin:0px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+.flex-top {
+    display:flex;
+}
+.flex-top > div{
+    margin: 10px 10px 10px 0;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.grid-container {
+    width: 1400px;
+    min-width: 900px;
+    margin: 30px 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 16px;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-rows: 1fr 160px 1.5fr 1fr 1fr 2fr 1.5fr;
+    height: 682px;
+    border-radius: 8px;
+    min-width: 230px;
+    background-color: white;
+    row-gap: 15px;
+}
+
+.top {
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+    margin: auto;
+    padding: 12px 0px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.name {
+    margin: auto 10px;
+}
+
+
+img {
+    height: 150px;
+    width: 208px;
+    margin: auto;
+}
+ article div{
+    text-align: center;
+    margin: auto;
+ }
+
+ .flex-link {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    
+}
+
+
+ul {
+    margin: auto 10px;
+    list-style-position: inside;
+    opacity: 0.8;
+}
+.link1 {
+    padding: 10px 5px;
+    flex-grow:2;
+    text-decoration: none;
+    color:aliceblue;
+    background-color: blue;
+    text-align: center;
+    border-radius: 3px;
+    align-self: stretch;
+}
+.link2 {
+    padding: 10px 5px;
+    flex-grow:3;
+    text-decoration: none;
+    color:blue;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid blue;
+    align-self: stretch;
+}
+
+.link1:hover {
+    background-color: rgb(11, 11, 213);
+}
+
+.link2:hover {
+    background-color: rgba(39, 135, 244, 0.1);
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    
+    .flex-header {
+        width: 800px;
+        min-width: 360px;
+        margin:0px 10px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px;
+        
+    }
+    .grid-container {
+        
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 16px;
+        width: 800px;
+        min-width: 360px;
+        margin: 30px 20px;
+    }
+
+  }
+
