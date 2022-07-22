@@ -52,7 +52,7 @@ main{
 
 .grid-box {
     display: grid;
-    grid-template-rows: 1fr 160px 1.5fr 1fr 1fr 2fr 1.5fr;
+    grid-template-rows: 1fr 250px 1fr 1fr 2fr 1.5fr;
     height: 682px;
     border-radius: 8px;
     min-width: 230px;
@@ -78,6 +78,8 @@ img {
     height: 150px;
     width: 208px;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
  article div{
     text-align: center;
@@ -112,7 +114,7 @@ ul {
     flex-grow:3;
     text-decoration: none;
     color:blue;
-    background-color: aliceblue;
+    background-color: white;
     text-align: center;
     border-radius: 3px;
     border: 1px solid blue;
@@ -127,7 +129,10 @@ ul {
     background-color: rgba(39, 135, 244, 0.1);
 }
 
-
+.flex-name-image {
+    display: flex;
+    flex-direction: column;
+}
 
 
 
@@ -154,6 +159,10 @@ ul {
         width: 800px;
         min-width: 360px;
         margin: 30px 20px;
+    }
+
+    .flex-name-image {
+        flex-direction: row;
     }
 
   }
