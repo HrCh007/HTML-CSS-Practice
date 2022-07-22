@@ -1,5 +1,10 @@
 # HTML-CSS-Practice
 
+This repository contains both:
+
+1. CSS-Flex Implementation of the below problem and
+2. CSS-Grid and CSS-flex Combined Implementation of the below problem.
+
 Aim: Create a hardcoded HTML-CSS webpage with below specifications:
 
 
