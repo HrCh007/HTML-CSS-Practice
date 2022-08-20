@@ -22,11 +22,23 @@
             <option value="female">Female</option>
             <option value="other">Rather Not Say</option>
         </select><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="DateOfBirth"><br><br>
+        <label for="con">Country:</label>
+        <input list="country" id="con">
+            <datalist id="country">
+                <option value="India">
+                <option value="Others">
+            </datalist><br><br>
         <label for="Address">Address: </label>
-        <textarea name="Address" id="Address" rows="5" cols="30">
-            
-        </textarea>
-        
+        <textarea name="Address" id="Address" rows="5" cols="30"></textarea><br><br>
+        ID Type:
+        <input type="radio" id="Aadhar" name="ID" value="Aadhar">
+        <label for="Aadhar">Aadhar</label>
+        <input type="radio" id="PAN" name="ID" value="PAN">
+        <label for="PAN">PAN</label>
+        <input type="radio" id="DL" name="ID" value="DL">
+        <label for="DL">DL</label>
     </form>
 </body>
 </html>
