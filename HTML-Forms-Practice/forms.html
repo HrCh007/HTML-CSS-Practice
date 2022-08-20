@@ -14,43 +14,50 @@
 <body style="margin-left: 20px;">
     <h2>A Practice Form</h2>
     <form>
-        <label for="name">Name: </label>
-        <input type="text" id="name" name="name"><br><br>
-        <label for="gender">Gender: </label>
-        <select id="gender" name="cars">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="other">Rather Not Say</option>
-        </select><br><br>
-        <label for="dob">Date of Birth:</label>
-        <input type="date" id="dob" name="DateOfBirth"><br><br>
-        <label for="email">Email ID:</label>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="con">Country:</label>
-        <input list="country" id="con">
-            <datalist id="country">
-                <option value="India">
-                <option value="Others">
-            </datalist><br><br>
-        <label for="Address">Address: </label>
-        <textarea name="Address" id="Address" rows="5" cols="30"></textarea><br><br>
-        ID Type:
-        <input type="radio" id="Aadhar" name="ID" value="Aadhar">
-        <label for="Aadhar">Aadhar</label>
-        <input type="radio" id="PAN" name="ID" value="PAN">
-        <label for="PAN">PAN</label>
-        <input type="radio" id="DL" name="ID" value="DL">
-        <label for="DL">DL</label><br><br>
-        <label for="IDno">ID Number: </label>
-        <input type="text" id="IDno" name="IDno"><br><br>
-        <label for="docn">Document Name: </label>
-        <select id="docn" name="DocName">
-            <option value="10th-Marksheet">10th Marksheet</option>
-            <option value="12th-Marksheet">12th Marksheet</option>
-            <option value="College-Degree">College Degree</option>
-        </select><br><br>
-        <label for="myfile">Upload Document:</label>
-        <input type="file" id="myfile" name="myfile">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="gender">Gender: </label>
+            <select id="gender" name="gender">
+                <option value="----">--Select Option--</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Rather Not Say</option>
+            </select><br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="DateOfBirth"><br><br>
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="con">Country:</label>
+            <input list="country" id="con">
+                <datalist id="country">
+                    <option value="India">
+                    <option value="Others">
+                </datalist><br><br>
+            <label for="Address">Address: </label>
+            <textarea name="Address" id="Address" rows="5" cols="30"></textarea><br><br>
+            ID Type:
+            <input type="radio" id="Aadhar" name="ID" value="Aadhar">
+            <label for="Aadhar">Aadhar</label>
+            <input type="radio" id="PAN" name="ID" value="PAN">
+            <label for="PAN">PAN</label>
+            <input type="radio" id="DL" name="ID" value="DL">
+            <label for="DL">DL</label><br><br>
+            <label for="IDno">ID Number: </label>
+            <input type="text" id="IDno" name="IDno"><br><br>
+            <label for="docn">Document Name: </label>
+            <select id="docn" name="DocName">
+                <option value="----">--Select Option--</option>
+                <option value="10th-Marksheet">10th Marksheet</option>
+                <option value="12th-Marksheet">12th Marksheet</option>
+                <option value="College-Degree">College Degree</option>
+            </select><br><br>
+            <label for="myfile">Upload Document:</label>
+            <input type="file" id="myfile" name="myfile"><br><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </fieldset>
     </form>
 </body>
 </html>
